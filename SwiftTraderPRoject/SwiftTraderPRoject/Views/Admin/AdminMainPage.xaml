@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:SwiftTraderPRoject.Views.Admin"
+             x:Class="SwiftTraderPRoject.Views.Admin.AdminMainPage"
+       Shell.FlyoutBehavior="Disabled"
+       Shell.NavBarIsVisible="False"
+       Shell.TitleColor="{StaticResource MainColor}"
+       Shell.TabBarBackgroundColor="{StaticResource BTextColor}">
+    <TabBar  >
+
+        <Tab  Title="Add Product" Icon="cart2">
+            <ShellContent>
+                <pages:ProductPage  />
+            </ShellContent>
+        </Tab>
+        <Tab  Title="Add User" Icon="Smile">
+            <ShellContent>
+                <pages:UserRecordPage/>
+            </ShellContent>
+        </Tab>
+        <Tab  Title="Add Category" Icon="collection2">
+            <ShellContent>
+                <pages:CategoryPage/>
+            </ShellContent>
+        </Tab>
+        <Tab Title="Add Advert" Icon="tel" >
+            <ShellContent>
+                <pages:AdvertPage/>
+            </ShellContent>
+        </Tab>
+        <Tab  Title="Add Advert" Icon="cart2" >
+            <ShellContent>
+                <pages:OrderPage IconImageSource="cart2"/>
+            </ShellContent>
+        </Tab>
+    </TabBar>
+</Shell>

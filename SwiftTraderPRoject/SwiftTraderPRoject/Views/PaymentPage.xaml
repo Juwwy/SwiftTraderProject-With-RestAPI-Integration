@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="SwiftTraderPRoject.Views.PaymentPage"
+             Visual="Material">
+    <ContentPage.Content>
+        <Grid RowDefinitions="200 , *">
+            <StackLayout Grid.Row="0" BackgroundColor="{StaticResource MainColor}">
+                <pancake:PancakeView WidthRequest="100" HeightRequest="100" CornerRadius="10">
+                    <Image Source="" Aspect="AspectFit"/>
+                </pancake:PancakeView>
+                <Label Text="Payment Page" FontSize="30" FontFamily="FontPacific" TextColor="{StaticResource BTextColor}" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Grid.Row="1" Margin="20" BackgroundColor="WhiteSmoke">
+                <ScrollView VerticalScrollBarVisibility="Never">
+                    <Frame BackgroundColor="White">
+                        <StackLayout Spacing="15">
+                            <Label Text="Fund Wallet Balance" FontSize="25" FontFamily="FontTk" TextColor="Black" Margin="10"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Card Number:" FontSize="20" FontFamily="FontTk" VerticalOptions="End"/>
+                                <Entry Keyboard="Numeric" x:Name="CardNumber" WidthRequest="180" BackgroundColor="Cornsilk" Placeholder="Enter Card Number" FontFamily="FontTk"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Expiry Date:" FontSize="20" FontFamily="FontTk"  VerticalOptions="End" FontAttributes="Bold"/>
+                                <Grid ColumnDefinitions="auto,auto,auto">
+                                    <Entry Keyboard="Numeric" x:Name="ExpDay" Grid.Column="0" ReturnType="Next" WidthRequest="60" BackgroundColor="Cornsilk" Placeholder="DD"  FontFamily="FontTk"/>
+                                    <Entry Keyboard="Numeric" x:Name="ExpMonth" Grid.Column="1" ReturnType="Next" WidthRequest="60" BackgroundColor="Cornsilk" Placeholder="MM"  FontFamily="FontTk"/>
+                                    <Entry Keyboard="Numeric" x:Name="ExpYear" Grid.Column="2" ReturnType="Next" WidthRequest="60" BackgroundColor="Cornsilk" Placeholder="YY"  FontFamily="FontTk"/>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="CV2 PIN:" FontSize="20" FontFamily="FontTk" VerticalOptions="End"/>
+                                <Entry Keyboard="Numeric" x:Name="Cv2" WidthRequest="100" BackgroundColor="Cornsilk"  Placeholder="Enter CV2 PIN" FontFamily="FontTk" Margin="10,0,0,0" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Card PIN:" FontSize="20" FontFamily="FontTk" VerticalOptions="End"/>
+                                <Entry Keyboard="Numeric" x:Name="CPin" WidthRequest="100" BackgroundColor="Cornsilk" IsPassword="True" Placeholder="Enter CV2 PIN" FontFamily="FontTk" Margin="10,0,0,0" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Address:" FontSize="20" FontFamily="FontTk" VerticalOptions="End"/>
+                                <Entry Keyboard="Text" x:Name="Addr1" WidthRequest="200" BackgroundColor="Cornsilk"  Placeholder="Enter Address" FontFamily="FontTk"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Address 2:" FontSize="20" FontFamily="FontTk" VerticalOptions="End"/>
+                                <Entry Keyboard="Text" x:Name="Addr2" WidthRequest="200" BackgroundColor="Cornsilk"  Placeholder="Enter Address" FontFamily="FontTk"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Country:" FontSize="20" FontFamily="FontTk" VerticalOptions="End"/>
+                                <Entry Keyboard="Text" x:Name="Country" WidthRequest="200" BackgroundColor="Cornsilk"  Placeholder="Enter Country" FontFamily="FontTk"/>
+                            </StackLayout>
+                            <Button Text="Pay" FontAttributes="Bold" TextColor="{StaticResource BTextColor}" BackgroundColor="{StaticResource MainColor}" TextTransform="None" FontSize="20" HeightRequest="50" Clicked="MakePay_Clicked"/>
+                        </StackLayout>
+                    </Frame>
+                </ScrollView>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

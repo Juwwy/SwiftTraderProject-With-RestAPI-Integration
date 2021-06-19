@@ -1,0 +1,12 @@
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.deps.json
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\bin\Release\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\bin\Release\netstandard2.1\SwiftTraders.ApplicationCore.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.csprojAssemblyReference.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.AssemblyInfo.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.csproj.CopyComplete
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.pdb

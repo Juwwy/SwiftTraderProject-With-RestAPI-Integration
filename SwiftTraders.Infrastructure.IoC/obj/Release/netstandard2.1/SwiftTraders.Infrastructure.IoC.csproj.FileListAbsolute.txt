@@ -1,0 +1,14 @@
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.deps.json
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\bin\Release\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\bin\Release\netstandard2.1\SwiftTraders.ApplicationCore.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\bin\Release\netstandard2.1\SwiftTraders.Infrastructure.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.csprojAssemblyReference.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.AssemblyInfo.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.csproj.CopyComplete
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.Infrastructure.IoC\obj\Release\netstandard2.1\SwiftTraders.Infrastructure.IoC.pdb

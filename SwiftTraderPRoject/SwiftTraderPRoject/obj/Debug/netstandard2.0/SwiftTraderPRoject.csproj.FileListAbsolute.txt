@@ -1,0 +1,67 @@
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\SwiftTraderPRoject.deps.json
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\ref\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\SwiftTraderPRoject.pdb
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.csprojAssemblyReference.cache
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\DashBoard.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\OnBoardingPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.AssemblyInfo.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\ref\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.pdb
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Setting.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\CartPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\LogoutPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\ProductCategoryPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\ProductDetailsPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\MainDashBoard.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\AllProductPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\AdvertPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\CategoryPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\OrderPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\ProductPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\AdminMainPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\UserRecordPage.xaml.g.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\PaymentPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.csprojAssemblyReference.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\AdminMainPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\AdvertPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\CategoryPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\OrderPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\ProductPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\Admin\UserRecordPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\AllProductPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\CartPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\DashBoard.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\LogoutPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\MainDashBoard.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\OnBoardingPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\PaymentPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\ProductCategoryPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\ProductDetailsPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.AssemblyInfo.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\ref\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\SwiftTraderPRoject.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\SwiftTraderPRoject.deps.json
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\ref\SwiftTraderPRoject.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\bin\Debug\netstandard2.0\SwiftTraderPRoject.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraderPRoject\SwiftTraderPRoject\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,18 @@
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Debug\netstandard2.1\SwiftTraders.ApplicationCore.deps.json
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Debug\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Debug\netstandard2.1\SwiftTraders.ApplicationCore.pdb
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.AssemblyInfo.cs
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.pdb
+C:\CodebitsAcademy\Final Project\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.csprojAssemblyReference.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Debug\netstandard2.1\SwiftTraders.ApplicationCore.deps.json
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Debug\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Debug\netstandard2.1\SwiftTraders.ApplicationCore.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.csprojAssemblyReference.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.AssemblyInfo.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Debug\netstandard2.1\SwiftTraders.ApplicationCore.pdb

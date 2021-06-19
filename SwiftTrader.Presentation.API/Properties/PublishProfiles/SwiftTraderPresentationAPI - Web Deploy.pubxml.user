@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYIKIZSYnP0uVrjd1tyE1DgAAAAACAAAAAAAQZgAAAAEAACAAAAAP+geSASjegyFzjKw3earEw1W2tZZ+wL2LL00fhMK77wAAAAAOgAAAAAIAACAAAABmwy33MSZEHoWsj11/cbBNigg2q6+idZ5AICvfbdUNS4AAAAA8baLqT5jn2poSWkr2grnTLwddxKwo6HbTTqbHzGFkvUFAAdvGlqkQ0ctgtr0bNw8PHL0QrGpOTGoY4D1F4XKwspausql/ozDLs/YRZpH5bvqJNjm9gtfVzC/gfxH9R014z/n/CLV1ebnEPezlqsMD81I3XIvp04DTvET0GdUKK0AAAABUKQG2P8+85EsRqRdA8ebVZHwPuM+5oDZYe45sgiFvQbm/nY8pZNrxVRVaFpEEoi+tr4U9BYNwCMQHbjCUv/jC</EncryptedPassword>
+    <History>False|2021-06-11T15:34:17.3838877Z;False|2021-06-11T16:28:39.3206055+01:00;False|2021-06-11T16:21:05.0211096+01:00;False|2021-06-11T16:18:25.1090694+01:00;False|2021-06-11T16:09:50.4749311+01:00;False|2021-06-11T16:01:28.5101395+01:00;False|2021-06-11T15:55:48.6364135+01:00;True|2021-06-11T15:50:55.9968521+01:00;False|2021-06-11T15:41:08.3718477+01:00;False|2021-06-11T04:17:06.5479683+01:00;True|2021-06-10T16:41:48.1425172+01:00;True|2021-06-10T16:30:38.3356074+01:00;True|2021-06-10T16:15:38.2293009+01:00;True|2021-06-10T16:12:00.5328182+01:00;True|2021-06-10T16:00:35.6414526+01:00;True|2021-06-10T15:57:57.9291963+01:00;True|2021-06-10T15:37:48.2566686+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:swifttradercodebitsdb.database.windows.net,1433%3bInitial Catalog=SwiftTrader.Presentation.API_db_2%3bUser Id=Juwwy%40swifttradercodebitsdb%3bPassword=Adeleke11</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="SwiftTraders.Infrastructure.DBContext.SwiftTraderDbContext">
+      <Value>Data Source=tcp:loanappcodebits.database.windows.net,1433%3bInitial Catalog=SwiftTrader.Presentation.API_db_2%3bUser Id=Juwwy%40loanappcodebits%3bPassword=Adeleke11</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

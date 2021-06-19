@@ -1,0 +1,9 @@
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Release\netstandard2.1\SwiftTraders.ApplicationCore.deps.json
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Release\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\bin\Release\netstandard2.1\SwiftTraders.ApplicationCore.pdb
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Release\netstandard2.1\SwiftTraders.ApplicationCore.csprojAssemblyReference.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Release\netstandard2.1\SwiftTraders.ApplicationCore.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Release\netstandard2.1\SwiftTraders.ApplicationCore.AssemblyInfo.cs
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Release\netstandard2.1\SwiftTraders.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Release\netstandard2.1\SwiftTraders.ApplicationCore.dll
+C:\CodebitsAcademy\test\SwiftTraderPRoject\SwiftTraders.ApplicationCore\obj\Release\netstandard2.1\SwiftTraders.ApplicationCore.pdb

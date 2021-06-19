@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="SwiftTraderPRoject.Views.OnBoardingPage"
+             xmlns:vm="clr-namespace:SwiftTraderPRoject.ViewModels"
+             BackgroundColor="{StaticResource MainColor}">
+
+    <ContentPage.BindingContext>
+        <vm:OnBoardingViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <Style x:Key="IndicatorStyle" TargetType="Image">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="Source" Value="Circle" />
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="Source" Value="star" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="auto, auto" >
+            <Grid Grid.Row="0">
+               
+                <CarouselView ItemsSource="{Binding Presentations}" IndicatorView="indicator">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid RowDefinitions="auto, auto">
+                                <StackLayout Grid.Row="0" >
+                                    <pancake:PancakeView CornerRadius="50,50" Margin="8" >
+                                        <Image Source="{Binding ImgUrl}" Aspect="AspectFill" HeightRequest="240" />
+                                    </pancake:PancakeView>
+                                </StackLayout>
+                                <StackLayout Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="5,8,5,0" >
+                                    <Label Text="{Binding Title}" TextColor="{StaticResource BTextColor}" FontSize="40" FontFamily="FontTk" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Content}" TextColor="{StaticResource BTextColor}" FontSize="23" FontFamily="FontTk" HorizontalTextAlignment="Center"/>
+
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                
+            </Grid>
+            <Grid RowDefinitions="auto, auto" Grid.Row="1">
+                <IndicatorView x:Name="indicator" HorizontalOptions="CenterAndExpand" SelectedIndicatorColor="Transparent"  IndicatorColor="Transparent" Grid.Row="0" >
+                    <IndicatorView.IndicatorTemplate>
+                        <DataTemplate >
+                            <Image Source="Circle"  Style="{StaticResource IndicatorStyle}"  HeightRequest="25"/>
+                        </DataTemplate>
+                    </IndicatorView.IndicatorTemplate>
+                </IndicatorView>
+
+                <Button Text="Get Started" BackgroundColor="{StaticResource BTextColor}" TextColor="{StaticResource MainColor}"  HeightRequest="50" BorderColor="{StaticResource BtnBorder}" BorderWidth="3" FontAttributes="Bold" CornerRadius="5" Clicked="Button_Clicked" Grid.Row="1" Margin="5"/>
+            </Grid>
+            
+            <BoxView x:Name="FadeBox" InputTransparent="True" Opacity="0" Color="Black"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

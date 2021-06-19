@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwiftTraderPRoject.Views.Setting">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="AddAdvert" Clicked="Ads_Clicked" BackgroundColor="Blue" TextColor="WhiteSmoke" HeightRequest="50" CornerRadius="10"/>
+            <Button Text="AddCategory" Clicked="Cat_Clicked" BackgroundColor="Orange" TextColor="WhiteSmoke" HeightRequest="50" CornerRadius="10"/>
+            <Button Text="AddProduct" Clicked="Prod_Clicked" BackgroundColor="Coral" TextColor="WhiteSmoke" HeightRequest="50" CornerRadius="10"/>
+            <Button Text="Create Cart Table" Clicked="BtnCreateTable_Clicked" BackgroundColor="LimeGreen" HeightRequest="50" CornerRadius="10"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

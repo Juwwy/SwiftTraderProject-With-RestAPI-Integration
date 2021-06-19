@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:vm="clr-namespace:SwiftTraderPRoject.ViewModels"
+             x:Class="SwiftTraderPRoject.Views.ProfilePage">
+
+
+    <ContentPage.BindingContext>
+        <vm:UserDataViewModel/>
+    </ContentPage.BindingContext>
+    
+
+    <Grid RowDefinitions="120,auto" BackgroundColor="{StaticResource MainColor}">
+        <StackLayout Grid.Row="0" BackgroundColor="{StaticResource MainColor}" >
+            <Grid ColumnDefinitions="50, auto, auto" Margin="10">
+                <pancake:PancakeView CornerRadius="8" Margin="0" Grid.Column="0" WidthRequest="50" >
+                    <Image Source="userImage" Aspect="AspectFit" HeightRequest="50" Grid.Column="0" 
+                               WidthRequest="50"/>
+                </pancake:PancakeView>
+
+                <StackLayout Grid.Column="1" HorizontalOptions="Center">
+                    <Grid RowDefinitions="auto,auto" HorizontalOptions="Center">
+                        <Label Text="{Binding Fullname}" FontSize="25" FontAttributes="Bold" TextColor="White" Grid.Row="0" Padding="-2" Margin="14,3,0,0" FontFamily="FontTk"/>
+                        <StackLayout Orientation="Horizontal" Grid.Row="1" Padding="2">
+                            <Frame HeightRequest="20" WidthRequest="50" CornerRadius="15" Padding="5">
+                                <Label Text="KYC 1" TextColor="{StaticResource MainColor}" FontSize="12" HorizontalTextAlignment="Center"/>
+
+                            </Frame>
+                            <Frame HeightRequest="20" WidthRequest="70" CornerRadius="15" Padding="5">
+                                <Label Text="Customer" TextColor="{StaticResource MainColor}" FontSize="12" HorizontalTextAlignment="Center"/>
+                            </Frame>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Column="2" Orientation="Horizontal">
+                    <ImageButton Source="cart1" HeightRequest="45" BackgroundColor="Transparent" VerticalOptions="Center" Clicked="CartBtn_Clicked"/>
+                    <ImageButton Source="setting" HeightRequest="45" BackgroundColor="Transparent" VerticalOptions="Center" Clicked="SettingBtn_Clicked" />
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never" Grid.Row="1">
+            <Grid RowDefinitions="auto,auto" BackgroundColor="{StaticResource MainColor}" >
+                <Grid RowDefinitions="auto,auto" Grid.Row="0" BackgroundColor="{StaticResource MainColor}" >
+                    <StackLayout Grid.Row="0" Orientation="Horizontal" Margin="10">
+                        <Label Text="Total amount (N)" FontSize="25" FontFamily="FontTk" TextColor="White"/>
+                        <Image Source="eyeWhite" HeightRequest="30"  />
+                    </StackLayout>
+                    <Label Text="500" FontSize="35" HorizontalOptions="Start" Padding="0" TextColor="White" Grid.Row="1" Margin="15,0,0,0" FontFamily="FontTk"/>
+                </Grid>
+                
+                <Grid Grid.Row="1" BackgroundColor="White" Margin="0,30,0,0">
+                    <Frame  HeightRequest="500" CornerRadius="40"  Margin="0,-30,0,0" HasShadow="False" >
+                        <Grid RowDefinitions="auto,auto,*">
+                            <StackLayout Grid.Row="0">
+                                <Label Text="About Me" FontSize="25" FontFamily="FontAk" TextColor="Black"  FontAttributes="Bold"/>
+                                <Grid RowDefinitions="auto,auto,auto">
+                                    <StackLayout Orientation="Horizontal" Spacing="10" Grid.Row="0">
+                                        <Image Source="Mail" HeightRequest="30" />
+                                        <Label Text="{Binding Email}" FontSize="20" TextColor="Black" FontAttributes="Bold" FontFamily="FontTk" VerticalOptions="Center"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" Grid.Row="1">
+                                        <Image Source="tel" HeightRequest="30" />
+                                        <Label Text="{Binding Telephone}" FontSize="20" TextColor="Black" FontAttributes="Bold" FontFamily="FontTk" VerticalOptions="Center"/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Grid.Row="1">
+                                <Label Text="General" FontSize="25" TextColor="Black" FontAttributes="Bold" FontFamily="FontAk" />
+                                <Grid RowDefinitions="auto,auto,auto,auto">
+                                    <StackLayout Orientation="Horizontal" Spacing="10" Grid.Row="0">
+                                        <Image Source="creditCard" HeightRequest="30"  />
+                                        <Label Text="Payments" FontSize="20" TextColor="Black" FontAttributes="Bold" FontFamily="FontTk" VerticalOptions="Center" >
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="PaymentTapped_Tapped"/>
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" Grid.Row="1">
+                                        <Image Source="invite" HeightRequest="30" />
+                                        <Label Text="Invite friends" FontSize="20" TextColor="Black" FontAttributes="Bold" FontFamily="FontTk" VerticalOptions="Center"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" Grid.Row="2">
+                                        <Image Source="help" HeightRequest="30" />
+                                        <Label Text="Support" FontSize="20" TextColor="Black" FontAttributes="Bold" FontFamily="FontTk" VerticalOptions="Center"/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <Frame Grid.Row="2" VerticalOptions="End" BackgroundColor="WhiteSmoke" Padding="5">
+                                <StackLayout>
+                                    <Label Text="Current Cart Record" FontSize="25" FontFamily="FontAk" TextColor="{StaticResource MainColor}" HorizontalTextAlignment="Center" />
+
+                                    <ListView x:Name="ListOfCartItems" SeparatorVisibility="None" Margin="15" ItemsSource="{Binding Services}" HasUnevenRows="True" Header="">
+                                        <ListView.HeaderTemplate>
+                                            <DataTemplate>
+                                                <Grid ColumnDefinitions="*,*,*,*,*">
+                                                    <Label Text="Id" FontSize="20" TextColor="Black" Grid.Column="0" FontAttributes="Bold" FontFamily="FontTk"/>
+                                                    <Label Text="Name" FontSize="20" TextColor="Black" Grid.Column="1" FontAttributes="Bold" FontFamily="FontTk"/>
+                                                    <Label Text="Price" FontSize="20" TextColor="Black" Grid.Column="2" FontFamily="FontTk" FontAttributes="Bold"/>
+                                                    <Label Text="Qty" FontSize="20" TextColor="Black" Grid.Column="3" FontAttributes="Bold" FontFamily="FontTk"/>
+                                                    <Label Text="Cost" FontSize="20" TextColor="Black" Grid.Column="4" FontAttributes="Bold" FontFamily="FontTk"/>
+                                                </Grid>
+                                            </DataTemplate>
+                                        </ListView.HeaderTemplate>
+                                        <ListView.ItemTemplate>
+                                            <DataTemplate>
+                                                <ViewCell>
+                                                    <ViewCell.View>
+                                                        <Grid ColumnDefinitions="*,2*,*,*,*">
+                                                            <Label Text="{Binding ProductId}" FontSize="12" TextColor="Black" Grid.Column="0"/>
+                                                            <Label Text="{Binding ProductName}" FontSize="12" TextColor="Black" Grid.Column="1"/>
+                                                            <Label Text="{Binding Price}" FontSize="12" TextColor="Black" Grid.Column="2"/>
+                                                            <Label Text="{Binding Quantity}" FontSize="12" TextColor="Black" Grid.Column="3"/>
+                                                            <Label Text="{Binding Cost}" FontSize="12" TextColor="Black" Grid.Column="4"/>
+                                                        </Grid>
+                                                    </ViewCell.View>
+                                                </ViewCell>
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>
+                                    </ListView>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

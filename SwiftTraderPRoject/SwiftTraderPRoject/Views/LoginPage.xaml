@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwiftTraderPRoject.Views.LoginPage"
+             BackgroundColor="WhiteSmoke"
+             xmlns:vm="clr-namespace:SwiftTraderPRoject.ViewModels"
+             Visual="Material">
+
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <StackLayout>
+            <Grid RowDefinitions="auto,auto">
+                <Frame BackgroundColor="{StaticResource MainColor}" Padding="16" CornerRadius="0" Grid.Row="0" HeightRequest="100">
+                    <Label Text="Welcome to Swift Traders" HorizontalTextAlignment="Center" TextColor="White" FontSize="30" FontFamily="FontTk"/>
+                </Frame>
+                <Frame Grid.Row="1" Margin="8" HeightRequest="500" CornerRadius="5" >
+                    <Grid RowDefinitions="auto, auto, auto">
+                        <StackLayout Grid.Row="0">
+                            <Label Text="Log In to Account" TextColor="Black" FontFamily="FontTK" FontAttributes="Bold" FontSize="25"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Margin="0,25,0,0">
+                            <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                                <Label Text="Email" TextColor="Black" FontSize="20" />
+                                <Image Source="Mail" HeightRequest="30" Aspect="AspectFit"/>
+                            </StackLayout>
+                            <Entry Keyboard="Text" Text="{Binding Email}"/>
+                            <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                                <Label Text="Password" TextColor="Black" FontSize="20" />
+                                <Image Source="padLock" HeightRequest="30" Aspect="AspectFit"/>
+                            </StackLayout>
+                            <Entry Keyboard="Text" Text="{Binding Password}" IsPassword="True"/>
+                            <Button BackgroundColor="WhiteSmoke" Text="Log In" FontAttributes="Bold" BorderColor="{StaticResource MainColor}" BorderWidth="2" Margin="0,5,0,0" CornerRadius="5" TextColor="{StaticResource MainColor}" HeightRequest="50" Command="{Binding LoginCommand}"/>
+                            <StackLayout Orientation="Horizontal" Margin="10">
+                                <Label Text="Don't have an Account yet?" />
+                                <Label Text="Create an Account" TextColor="{StaticResource MainColor}" FontAttributes="Bold">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="Create_link"/>
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+            </Grid>
+            
+        </StackLayout>
+
+        <BoxView x:Name="FadeBox" InputTransparent="True" Opacity="1" Color="Black"/>
+    </Grid>
+
+</ContentPage>

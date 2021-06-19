@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYIKIZSYnP0uVrjd1tyE1DgAAAAACAAAAAAAQZgAAAAEAACAAAAA5vWimXmAh5fDZ7hWvr9uar/i4UHg/erYEcHCmdP7TkwAAAAAOgAAAAAIAACAAAACbwZZoUvKg4Flcu1KI4y5DYv9op9LaLhih1w1dh7/51IAAAABlDr1rracQoGkRyOojS7sokV7tXaqo0vB3DzDCp0BdwNqgYjnSsiHK6HejnLcphXnh+/pUbF395w5yv/hT10Sp0pEjmPWpxfvggNgKRbWVitmdpIaDTmKgLX8M35BeZg6zlX/fHSGjYSVyD2YDyiTQHlY4aUfnDcxIF24ryq8ADkAAAAAB7XBLzU0pyq/q/9zflrEcnhwLYd1Acfou9sjeFPBeBVjsKhFp9LxD2CIsUw0ZGA/hxUndMknf70n6nw60pq4J</EncryptedPassword>
+    <History>False|2021-06-12T12:28:00.3061464Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:swifttradercodebitsdb.database.windows.net,1433%3bInitial Catalog=SwiftTraders.Presentations.API_db_3%3bUser Id=Juwwy%40swifttradercodebitsdb%3bPassword=Adeleke11</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="SwiftTraders.Infrastructure.DBContext.SwiftTraderDbContext">
+      <Value>Server=DESKTOP-BCR11TH\SQLEXPRESS01%3bDatabase=SwiftTraderPRoject%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

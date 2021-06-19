@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SwiftTraderPRoject.ViewModels"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="SwiftTraderPRoject.Views.AllProductPage">
+
+    <ContentPage.BindingContext>
+        <vm:UserDataViewModel/>
+    </ContentPage.BindingContext>
+    
+    <Grid RowDefinitions="150,auto" >
+        <StackLayout Grid.Row="0" Orientation="Vertical" BackgroundColor="{StaticResource MainColor}" Margin="0,0,0,5">
+            <Label Text="Swift Traders" HorizontalTextAlignment="Center" TextColor="{StaticResource BTextColor}" FontSize="45" FontFamily="FontAk" Margin="5"/>
+            <Label Text="Products Overview" TextColor="Gold" FontSize="30" FontFamily="FontTk" Padding="5" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+        <CollectionView Grid.Row="1" Margin="5" ItemsSource="{Binding Products}" SelectionChanged="ProductSelected_SelectionChanged" SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="{StaticResource BTextColor}" Grid.Row="1" CornerRadius="10" Margin="5">
+                        <Grid ColumnDefinitions="100, *">
+                            <pancake:PancakeView CornerRadius="10" WidthRequest="100" HeightRequest="100" Grid.Column="0">
+                                <Image Source="{Binding ImgUrl}" Aspect="AspectFill" />
+                            </pancake:PancakeView>
+                            <StackLayout Orientation="Vertical" Grid.Column="1" Margin="10,0,0,0">
+                                <Label Text="{Binding ProductName}" TextColor="{StaticResource MainColor}" FontSize="20" FontFamily="FontAk"/>
+                                <Label Text="{Binding Price, StringFormat='{0:c}'}" TextColor="Black" FontSize="16" FontFamily="FontTk"/>
+                                <Label Text="{Binding Description}" TextColor="Black" FontSize="16" FontFamily="FontTk"/>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwiftTraderPRoject.Views.OrderPage">
+    <ContentPage.Content >
+        <Grid RowDefinitions="auto, auto,auto" BackgroundColor="{StaticResource MainColor}">
+            <Frame Margin="15" Padding="0" Grid.Row="0" CornerRadius="10">
+                <Image Source="Order" Aspect="AspectFill" HeightRequest="200"/>
+            </Frame>
+            <Frame CornerRadius="40" Margin="5,2,5,2" Grid.Row="1" HasShadow="True" Padding="5" >
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Order Summary" FontSize="25" FontAttributes="Bold" FontFamily="FontAwesome" Margin="0,4,0,7" HorizontalTextAlignment="Center" TextColor="{StaticResource MainColor}"/>
+                    <Label Text="Thanks For Placing your order. We have recieved your order information and will get back to you shortly" HorizontalTextAlignment="Center" FontAttributes="Bold" FontFamily="FontTk" Margin="5" FontSize="17"/>
+                    
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="2" Margin="5" CornerRadius="5">
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Order Id:" FontFamily="FontTk" TextColor="Black" FontSize="18"/>
+                        <Label x:Name="orderId" FontFamily="FontTk" TextColor="Black" FontSize="18"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Username:" FontFamily="FontTk" TextColor="Black" FontSize="18"/>
+                        <Label x:Name="user_name" FontFamily="FontTk" TextColor="Black" FontSize="18"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Total Cost:" FontFamily="FontTk" TextColor="Black" FontSize="18"/>
+                        <Label x:Name="cost" FontFamily="FontTk" TextColor="Black" FontSize="18"/>
+                    </StackLayout>
+                    <Button Text="Check More Product From Cart" BackgroundColor="{StaticResource MainColor}" TextColor="{StaticResource BTextColor}" TextTransform="None" CornerRadius="10" Clicked="BackBtn_Clicked"/>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

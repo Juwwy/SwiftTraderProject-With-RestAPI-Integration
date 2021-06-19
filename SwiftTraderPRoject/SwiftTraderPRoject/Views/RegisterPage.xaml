@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:vm="clr-namespace:SwiftTraderPRoject.ViewModels"
+             x:Class="SwiftTraderPRoject.Views.RegisterPage"
+             Visual="Material"
+             BackgroundColor="{StaticResource MainColor}">
+
+    <ContentPage.BindingContext>
+        <vm:RegisterViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <pancake:PancakeView CornerRadius="0,0,80,0" BackgroundColor="White" Grid.Row="0" >
+                <Grid RowDefinitions="auto, *">
+                    <Frame VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="0" CornerRadius="150" BorderColor="{StaticResource MainColor}" Margin="0,10,0,0">
+                        <Image Source="create" Aspect="AspectFit" HeightRequest="80" />
+                    </Frame>
+                    <Label Text="Register"  FontSize="30" FontAttributes="Bold" FontFamily="FontTk" HorizontalOptions="CenterAndExpand" Grid.Row="1"/>
+                </Grid>
+            </pancake:PancakeView>
+            <ScrollView Grid.Row="1" Margin="5" VerticalScrollBarVisibility="Never">
+                <Grid Grid.Row="1" BackgroundColor="{StaticResource MainColor}" RowDefinitions="auto,auto,auto,auto,auto,auto,auto,auto">
+                    <StackLayout Margin="8,8,8,3" Grid.Row="0" >
+                        <Frame CornerRadius="30" Padding="0">
+
+                            <Grid ColumnDefinitions="40, *">
+                                <Image Source="userSh" HeightRequest="30" Aspect="AspectFit" Grid.Column="0"/>
+                                <Entry Text="{Binding Fullname}" Placeholder="Fullname" Keyboard="Text" PlaceholderColor="Black" Grid.Column="1"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Margin="8,3,8,3" Grid.Row="1" >
+                        <Frame CornerRadius="30" Padding="0"   >
+
+                            <Grid ColumnDefinitions="40, *">
+                                <Image Source="mail" HeightRequest="30" Aspect="AspectFit" Grid.Column="0"/>
+                                <Entry Text="{Binding Email}" Placeholder="Email" Keyboard="Email" PlaceholderColor="Black" Grid.Column="1"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Margin="8,3,8,3" Grid.Row="2" >
+                        <Frame CornerRadius="30" Padding="0"   >
+
+                            <Grid ColumnDefinitions="40, *">
+                                <Image Source="User" HeightRequest="30" Aspect="AspectFit" Grid.Column="0"/>
+                                <Entry Text="{Binding Username}" Placeholder="Username" Keyboard="Text" PlaceholderColor="Black" Grid.Column="1"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Margin="8,3,8,3" Grid.Row="3" >
+                        <Frame CornerRadius="30" Padding="0"   >
+
+                            <Grid ColumnDefinitions="40, *">
+                                <Image Source="tel" HeightRequest="30" Aspect="AspectFit" Grid.Column="0"/>
+                                <Entry Text="{Binding Telephone}" Placeholder="Telephone" Keyboard="Telephone" PlaceholderColor="Black" Grid.Column="1"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Margin="8,3,8,3" Grid.Row="4" >
+                        <Frame CornerRadius="30" Padding="0"   >
+
+                            <Grid ColumnDefinitions="40, *">
+                                <Image Source="padLock" HeightRequest="30" Aspect="AspectFit" Grid.Column="0"/>
+                                <Entry Text="{Binding Password}" Placeholder="Password" Keyboard="Text" IsPassword="True" PlaceholderColor="Black" Grid.Column="1"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Margin="8,3,8,3" Grid.Row="5" >
+                        <Frame CornerRadius="30" Padding="0"   >
+
+                            <Grid ColumnDefinitions="40, *">
+                                <Image Source="padLock" HeightRequest="30" Aspect="AspectFit" Grid.Column="0"/>
+                                <Entry Text="{Binding CPassword}" Placeholder="Confirm Password" Keyboard="Text" IsPassword="True" PlaceholderColor="Black" Grid.Column="1"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Margin="8,3,8,3" Grid.Row="6">
+                        <Button Text="Create Account" FontAttributes="Bold" BackgroundColor="WhiteSmoke"  TextColor="{StaticResource MainColor}" HeightRequest="50" CornerRadius="10" Command="{Binding RegisterCommand}" />
+                    </StackLayout>
+                   
+
+                </Grid>
+            </ScrollView>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
